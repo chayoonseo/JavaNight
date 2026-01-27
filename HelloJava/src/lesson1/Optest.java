@@ -11,7 +11,7 @@ public class Optest {
 		System.out.println(a / (double)b);
 		System.out.println(a % b);
 
-		System.out.println((a + b) / 2);
+		System.out.println(a + b / 2);
 
 	}
 }
