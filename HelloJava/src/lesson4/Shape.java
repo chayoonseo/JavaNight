@@ -5,4 +5,8 @@ public sealed class Shape permits Circle, Rectangle{
 		System.out.println("도형입니다");
 	}
 
+	public void showArea() {
+		System.out.println("도형의 면적은? ");
+	}
+
 }
